@@ -1,0 +1,161 @@
+#container{
+    width: 1100px;
+    height: 1500px;
+    position: relative;
+    padding: 10px 20px;
+}
+#header{
+    width: 1100px;
+    height: 200px;
+    position: relative;
+}
+#bg{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    background: url("국민은행.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 650px;
+}
+#header1{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+#header2{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+#header3{
+    position: absolute;
+    top: 40px;
+    left: 130px;
+}
+header div ul li{
+    float: left;
+}
+main div ul li{
+    float: left;
+}
+ul li{
+    padding: 0px 15px;
+    text-decoration-line: none;
+    color: black;
+    list-style: none;
+}
+a{
+    text-decoration-line: none;
+}
+.title{
+    font-style: bold;
+    color: black;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+main{
+    position: relative;
+    width: 1100px;
+    height: 1000px;
+}
+#mainbar1{
+    background-color: rgb(255, 194, 41);
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    position: absolute;
+    bottom: 420px;
+    left: 100px;
+}
+#maingbar2{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    width: 680px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 25px;
+    position: absolute;
+    bottom: 420px;
+    left: 470px;
+}
+
+#section-news{
+    position: absolute;
+    bottom: 270px;
+    left: 130px;
+}
+.news{
+    position: absolute;
+    left: 180px;
+    bottom: 240px;
+}
+#section-event{
+    position: absolute;
+    bottom: 270px;
+    left: 650px;
+}
+.event{
+    position: absolute;
+    bottom: 240px;
+    left: 700px;
+}
+#seobis{
+    position: absolute;
+    bottom: -190px;
+    width: 330px;
+    height: 330px;
+    border: 1px solid black;
+}
+.seobis1{
+    position: absolute;
+    left: 100px;
+}
+.seobis2{
+    position: absolute;
+    left: 470px;
+}
+.seobis3{
+    position: absolute;
+    left: 840px;
+}
+.seobis-picuer{
+    background-color: orange;
+    width: 330px;
+    height: 150px;
+}
+.seobis-img2{
+    position: absolute;
+    left: 0px;
+    background-color: lightblue;
+    width: 330px;
+    height: 150px;
+}
+.seobis-img3{
+    position: absolute;
+    left: 0px;
+    background-color: lightgreen;
+    width: 330px;
+    height: 150px;
+}
+#sangpum{
+    position: absolute;
+    bottom: -320px;
+    left: 150px;
+}
+#section-bg{
+    position: absolute;
+    bottom: -330px;
+    left: 310px;
+    background: url("메인.png");
+    width: 800px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
